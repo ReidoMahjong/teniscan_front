@@ -117,6 +117,21 @@ section {
 
 /* celular*/
 @media (max-width: 480px) {
+
+    .sec1 img {
+        max-width: 80%;
+    }
+
+    .sec1 h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .sec1 h3 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
     .img_box {
         width: 80%;
         height: auto;
