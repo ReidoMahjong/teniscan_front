@@ -168,14 +168,14 @@ section {
 
 .sec3 .container {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     width: 90%;
     max-width: 1200px;
     align-items: center;
 }
 
 .iniciar_img {
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 20px;
     object-fit: cover;
@@ -217,7 +217,7 @@ section {
         align-items: center;
     }
 
-    .main-img, .squares {
+    .iniciar_img, .squares {
         width: 100%;
     }
 
