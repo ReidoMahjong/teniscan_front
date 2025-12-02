@@ -116,10 +116,9 @@ section {
 }
 
 /* celular*/
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .img_box {
         width: 80%;
-        flex-direction: column;
         height: auto;
         padding: 1rem;
     }
@@ -130,11 +129,9 @@ section {
     }
 
     .text {
-        text-align: center;
+        text-align: left;
         width: 100%;
     }
-
-    .sec2 {background: #c1737d;}
 }
 
 .sec3 { background: black; } 
