@@ -116,7 +116,7 @@ section {
 }
 
 /* celular*/
-@media (max-width: 860px) {
+@media (max-width: 320px) {
     .img_box {
         width: 80%;
         flex-direction: column;
