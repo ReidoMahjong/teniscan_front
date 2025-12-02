@@ -65,61 +65,64 @@ section {
     align-items: center;
     gap: 2rem;
     height: 100vh;
-    padding: 0 2rem;
     background: black;
 }
 
-/* Cada caixa horizontal */
-.box {
+.img_box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #111;
-    width: 90%;
-    max-width: 1200px;
-    height: 30%;          /* todas com o mesmo tamanho vertical */
+    width: 50%;
+    height: 20%;
     border-radius: 12px;
     padding: 1.5rem;
     gap: 1.5rem;
 }
 
-/* Imagem */
-.box img {
+.img_box img {
     height: 100%;
     width: auto;
     border-radius: 10px;
     object-fit: cover;
 }
 
-/* Textos */
+.b1, .b3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* elementos próximos */
+    gap: 2rem; /* espaço mínimo entre imagem e texto */
+}
+
 .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;         /* alinhamento pedido */
-    color: white;
+    text-align: left;
 }
 
 .text h2 {
     margin: 0 0 .5rem 0;
     font-size: clamp(1.4rem, 2vw, 2.3rem);
+    color: #c1737d;
 }
 
 .text p {
     margin: 0;
     font-size: clamp(.8rem, 1.4vw, 1.2rem);
+    color: white;
 }
 
-/* RESPONSIVIDADE — no celular vira coluna */
+/* celular*/
 @media (max-width: 860px) {
-    .box {
+    .img_box {
         flex-direction: column;
         height: auto;
         padding: 1rem;
     }
 
-    .box img {
-        width: 100%;
+    .img_box img {
+        width: 75%;
         height: auto;
     }
 
